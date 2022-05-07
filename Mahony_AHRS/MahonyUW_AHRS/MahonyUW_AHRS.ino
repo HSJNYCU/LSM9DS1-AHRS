@@ -87,6 +87,7 @@ static float yaw, pitch, roll; //Euler angle output
 
 void setup()
 {
+  Serial.println("Let Begin");
   Serial.begin(115200);
   while (!Serial); //wait for connection
   Serial.println();

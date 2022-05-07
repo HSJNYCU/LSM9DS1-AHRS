@@ -56,6 +56,7 @@ static unsigned long lastPrint = 0; // Keep track of print time
 void setup()
 {
   Serial.begin(9600);
+  Serial.println("started");
   while (!Serial); //wait for connection
 
   Wire.begin();
